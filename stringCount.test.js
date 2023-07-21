@@ -6,7 +6,7 @@ test("Test length should be 4", ()=> {
 })
 
 test("Testing with string greater than 10",()=> {
-    const longName = "dafasdfasdfafd";
+    const longName = "hellowmyworld";
     expect(()=>stringLength(longName)).toThrow(Error)
 } )
 
